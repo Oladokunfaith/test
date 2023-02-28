@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+body{
+    font-family: 'Poppins', sans-sePif !important;
+}
+html{
+    font-size: 80% !important;
+}
+.text-main{
+    color: #40196d !important;
+}
+.btn-main{
+    background-color: #40196d !important;
+}
+.mask{
+    background-image: linear-gradient(to bottom rgba(0,0,0,0) 0% rgba(0,0,0,0) 100%) ;
+    -webkit-background-image: linear-gradient(to bottom rgba(0,0,0,0) 0% rgba(0,0,0,0) 100%);
+    mix-blend-mode:darken;
+}
+.parent{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.pos-1{
+    position: relative;
+    top: 150px;
+    left: 40px;
+}
+.pos-2{
+    position: relative;
+    top: -270px;
+    left: 220px;
+    z-index: 1;
+}
+.pos-4{
+    position: relative;
+    top: -210px;
+    left: 180px;
+}
+.pos-3{
+    position: relative;
+    top: -180px;
+    left: -170px;
+}
+.img-size{
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+}
+.img-size-big{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+.img-size-lg{
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+}
+.eyowo-cta--section {
+    background: #eff1ff;
+    border: 1px solid rgba(219,220,224,.5);
+    box-shadow: 15px 30px 40px rgba(64,25,109,.07);
+    border-radius: 5px;
+    padding: 60px 88px 76px;
+    position: relative;
+    overflow: hidden;
+}
